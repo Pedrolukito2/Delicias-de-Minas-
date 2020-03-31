@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+</head>
+<body>
+<form>
+    <section id="Pokemons">
+        <h1>Pokemons</h1>
+
+        <label for="Cnumero">Numero na Pokedex:</label>
+        <input type="number" name="Tnumero" id="Cnumero" size="20" min="1">
+    </section>
+
+            <div>
+               <label for="Cnome">Nome do Pokemon:</label>
+               <input type="search" id="Cnome" name="Tnome" size="20" maxlength="20" placeholder="Primeiro nome">
+            </div>
+
+    <div>
+        <label for="Tipo1">Tipo 1</label>
+        <select name="Tipo1">
+            <option value="Aço">Aço</option>
+            <option value="Agua">Água</option>
+            <option value="Dragao">Dragão</option>
+            <option value="Eletrico">Elétrico</option>
+            <option value="Fada">Fada</option>
+            <option value="Fantasma">Fantasma</option>
+            <option value="Fogo">Fogo</option>
+            <option value="Gelo">Gelo</option>
+            <option value="Inseto">Inseto</option>
+            <option value="Lutador">Lutador</option>
+            <option value="Normal">Normal</option>
+            <option value="Pedra">Pedra</option>
+            <option value="Planta">Planta</option>
+            <option value="Psiquico">Psíquico</option>
+            <option value="Sombrio">Sombrio</option>
+            <option value="Terra">Terra</option>
+            <option value="Venenoso">Venenoso</option>
+            <option value="Voador">Voador</option>
+        </select>
+    </div>
+    <div>
+        <label for="Tipo2">Tipo 2</label>
+        <select name="Tipo2">
+            <option value="Aço">Aço</option>
+            <option value="Agua">Água</option>
+            <option value="Dragao">Dragão</option>
+            <option value="Eletrico">Elétrico</option>
+            <option value="Fada">Fada</option>
+            <option value="Fantasma">Fantasma</option>
+            <option value="Fogo">Fogo</option>
+            <option value="Gelo">Gelo</option>
+            <option value="Inseto">Inseto</option>
+            <option value="Lutador">Lutador</option>
+            <option value="Normal">Normal</option>
+            <option value="Pedra">Pedra</option>
+            <option value="Planta">Planta</option>
+            <option value="Psiquico">Psíquico</option>
+            <option value="Sombrio">Sombrio</option>
+            <option value="Terra">Terra</option>
+            <option value="Venenoso">Venenoso</option>
+            <option value="Voador">Voador</option>
+        </select>
+    </div>
+    <div>
+        <label for="Total">Total:</label>
+        <input type="text" name="Ctotal" id="Total" size="30" placeholder="Soma de todas as estatísticas básicas">
+    </div>
+
+    <div>
+       <label for="hp">HP:</label>
+       <input type="number" name="Cnumero" id="tnumero" size="20" min="1" placeholder="HP do Pokemon">
+    </div>
+    <div>
+        <label for="ataque">Ataque:</label>
+        <input type="number" name="ataqueT" id="ataqueC" min="1">
+    </div>
+    <div>
+        <label for="defesa">Defesa:</label>
+        <input type="number" name="defesaT" id="defesaC" min="1">
+    </div>
+    <div>
+        <label for="ataque especial">Ataque especial:</label>
+        <input type="number" name="ataque especialT" id="ataque especialC" min="1">
+    </div>
+    <div>
+        <label for="defesa especial">Defesa especial:</label>
+        <input type="number" name="defesa especialT" id="defesa especialC" min="1">
+    </div>
+    <div>
+        <label for="velocidade">Velocidade:</label>
+        <input type="number" name="velocidadeT" id="velocidadeC" min="1">
+    </div>
+    <div>
+        <label for="geracao">Geração:</label>
+        <input type="number" name="geracaoT" id="geracaoC" min="1" max="7">
+    </div>
+    <section id="lendario">
+        <label for="lendario">Lendario:</label>
+        <input type="radio" name="lendarioT" id="lendarioC">Sim
+        <input type="radio" name="lendarioT" id="lendarioC">Não
+    </section>
+
+    <div>
+      <label for="bCor">Cor</label>
+        <select name="Cor">
+           <option value="Amarelo">Amarelo</option>
+           <option value="Azul">Azul</option>
+           <option value="Branco">Branco</option>
+           <option value="Cinza">Cinza</option>
+           <option value="Marrom">Marrom</option>
+           <option value="Preto">Preto</option>
+           <option value="Rosa">Rosa</option>
+           <option value="Roxo">Roxo</option>
+           <option value="Verde">Verde</option>
+           <option value="Vermelho">Vermelho</option>
+        </select>
+    </div>
+    <div>
+        <label for="altura_m">Altura:</label>
+        <input type="number" name="altura_mT" id="altura_mC" placeholder="Altura em metros do Pokemon" size="50" min="1">
+    </div>
+    <div>
+        <label for="peso_kg">Peso:</label>
+        <input type="number" name="peso_kgT" id="peso_kgC" placeholder="Peso em Kilos do Pokemon" size="50" min="1">
+    </div>
+    <div>
+        <label for="taxa_captura">Taxa captura:</label>
+        <input type="number" name="taxa_capturaT" id="taxa_capturaC" size="50" min="0" max="255">
+    </div>
+    <div class="button">
+        <button type="button" class="btn btn-Sucess">Cadastrar Pokemon</button>
+    </div>
+</form>
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
